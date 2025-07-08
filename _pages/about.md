@@ -8,7 +8,7 @@ redirect_from:
 ---
 I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), doing research in Macroeconomics and its intersection with (household) finance and development. I am interested in studying sources of risk and constraints faced by the households in lower- and middle-income economies, and how those affect their consumption and investment behaviour. I use heterogeneous agent models to study how the aggregate behaviour affects, and is affected by, the state and process of development, as well as the policy implications.
 
-I hold a BSc in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics and Theoretical Economics from Toulouse School of Economics.
+I hold a BSc in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics and Theoretical Economics from [Toulouse School of Economics](https://www.tse-fr.eu/).
 
 I am on the 2025/26 job market, you can find my paper here.
 
