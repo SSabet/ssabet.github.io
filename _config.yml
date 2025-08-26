@@ -93,6 +93,9 @@ publication_category:
     title: 'Working Papers'
   wip:
     title: 'Work in Progress'
+  other:
+    title: 'Work in Progress'
+    
     
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
