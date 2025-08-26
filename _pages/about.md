@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), doing research in Macroeconomics and its intersection with (household) finance and development. 
+I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
 My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, as well as the policy implications. 
 Besides that, I am interested in computational economics and, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
