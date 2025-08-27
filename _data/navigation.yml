@@ -20,6 +20,9 @@ main:
     
   - title: "Macro Notebooks"
     url: /macropluto/
+
+  - title: "Data & Code"
+    url: /code/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
