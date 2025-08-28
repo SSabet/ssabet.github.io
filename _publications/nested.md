@@ -1,9 +1,9 @@
 ---
-title: "The Aggregate Costs of Unproductive Savings: The Case of Gold in India"
+title: "The Nested Drift Algorithm"
 collection: publications
 category: jmp
-permalink: /publication/JMP
-excerpt: 'This paper is about ...'
+permalink: /publication/nested
+excerpt: 'with Patrick Schneider'
 <!-- date: 2025-10-01 -->
 <!-- venue: '' -->
 slidesurl: ''

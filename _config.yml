@@ -30,11 +30,11 @@ author:
   bio              : "PhD candidate in Economics, LSE"
   location         : "London"
   employer         : "London School of Economics"
-  uri              : # URL
+  uri              : "https://www.lse.ac.uk/economics/people/research-students/soroush-sabet"
   email            : "s.sabet@lse.ac.uk" 
 
   # Academic websites
-  academia         : "https://www.lse.ac.uk/economics/people/research-students/soroush-sabet"
+  academia         : 
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
@@ -94,7 +94,9 @@ publication_category:
   wip:
     title: 'Work in Progress'
   other:
-    title: 'Work in Progress'
+    title: 'Older, Dormant'
+  other:
+    title: "Non-Econ"
     
     
 # Site Settings
