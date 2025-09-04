@@ -91,9 +91,7 @@ publication_category:
     title: 'Work in Progress'
   manuscripts:
     title: 'Journal Articles'    
-  # conferences:
-  #   title: 'Conference Papers'
-  other:
+  old:
     title: 'Older, Resting'
   other:
     title: "Non-Econ"
