@@ -4,8 +4,8 @@ collection: publications
 category: jmp
 permalink: /publication/nested
 excerpt: 'with Patrick Schneider'
-<!-- date: 2025-10-01 -->
-<!-- venue: '' -->
+date: 2025-10-01
+venue: ''
 slidesurl: ''
 paperurl: ''
 bibtexurl: ''
