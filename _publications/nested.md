@@ -4,7 +4,6 @@ collection: publications
 category: wp
 permalink: /publication/nested
 excerpt: 'with Patrick Schneider'
-date: 2024-10-011
 venue: ''
 slidesurl: ''
 paperurl: ''
