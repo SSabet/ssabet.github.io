@@ -19,9 +19,9 @@ main:
     url: /teaching/    
     
   - title: "Macro Notebooks"
-    url: /macropluto/
+    url: /notebooks/
 
-  - title: "Data & Code"
+  - title: "Code & Data"
     url: /code/
         
   # - title: "Blog Posts"
