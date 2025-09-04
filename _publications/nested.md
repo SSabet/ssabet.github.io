@@ -1,7 +1,7 @@
 ---
 title: "The Nested Drift Algorithm"
 collection: publications
-category: manuscript
+category: wp
 permalink: /publication/nested
 excerpt: 'with Patrick Schneider'
 date: 2025-10-01

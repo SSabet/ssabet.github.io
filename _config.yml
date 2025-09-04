@@ -89,7 +89,7 @@ publication_category:
   #   title: 'Conference Papers'
   jmp:
     title: 'Job Market Paper'
-  workp:
+  wp:
     title: 'Working Papers'
   wip:
     title: 'Work in Progress'
