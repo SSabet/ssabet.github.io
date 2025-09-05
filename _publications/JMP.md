@@ -3,7 +3,7 @@ title: "The Aggregate Costs of Unproductive Savings: The Case of Gold in India"
 collection: publications
 category: jmp
 permalink: /publication/JMP
-excerpt: '<p> with Jonas </p> This paper is about ...<br/><img src='/images/500x300.png'>'
+excerpt: 'This paper is about ...<br/><img src='/images/500x300.png'>'
 date: 2025-10-01
 venue: ''
 slidesurl: ''
