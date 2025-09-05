@@ -4,7 +4,8 @@ collection: publications
 category: wp
 permalink: /publication/Nested
 excerpt: 'with Patrick Schneider'
-image: /images/500x300.png
+header:
+  teaser: /images/500x300.png
 slidesurl: ''
 paperurl: ''
 ---
