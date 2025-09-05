@@ -1,9 +1,9 @@
 ---
-title: "Business Cycle Along the Development Path"
+title: "Business Cycles Along the Development Path"
 collection: publications
 category: wp
 permalink: /publication/BCAD
-excerpt: 'This paper is about ...'
+excerpt: <p style="font-size:0.9rem; line-height:1.4; margin:0;"> <em>[Draft Coming Soon.]</em> </p>
 date: 2025-10-01
 venue: ''
 slidesurl: ''
