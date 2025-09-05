@@ -8,16 +8,13 @@ date: 2025-09-05
 paperurl: 'http://ssabet.github.io/files/Reproducibility.pdf'
 repourl: 'https://github.com/SSabet/reproducibility-econ-journals'
 ---
-We introduce a new algorithm for solving continuous time problems
-with multiple endogenous state variables in a finite–difference scheme.
-The algorithm extends the logic of up–winding to its logical extreme in
-a way that meets the necessary conditions for local convergence (Barles
-and Souganidis, 1991). It is consistent because the directions of state–
-drift are never in conflict, and constraints are applied non–linearly. It is
-efficient because it nests the search for these state–drifts in a way that
-ensures costly root–finding is only performed after other alternatives
-are exhausted. The algorithm improves on the existing ‘split–drift’
-approach from (Kaplan et al., 2018; Achdou et al., 2022), which can
-fail under some parameter settings because it is not guaranteed to be
-consistent.
-<img src='/images/nested.png'>
+### Summary of the Report
+- In recent years, there has been a momentum on the part of economic journals towards adopting a data policy or upgrading the previous one. Currently, around 72% of the top 100 journals, and 76 % of the top 50 journals have some sort of data policy.
+
+- The first version of a standard for code and data availability policies, prepared by a team of data editors of economic journals, was published in December 2022. [DCAS](https://datacodestandard.org/) seems to be the first important collective step towards homogenising the reproducibility and data policy of the economic journals and is expected to be endorsed by more and more journals in the coming months
+and years.
+
+- Endorsing DCAS and building a data repository “community” on [Zenodo](https://zenodo.org/) (or another comparable open data repository host) have near zero costs for any journal and seems to be a feasible contribution towards widening adoption of reproducibility policies even for the smaller journals with lower budgets.
+
+- Enforcement, which consists of checking the documentation and the data and code package as well as re-running the codes to ensure the consistency between the paper and the linked code/data (aka “computational reproducibility”) is costly, but can be performed on different levels depending on the budget constraints. The recent experience of the *Economic Inquiry journal* and *Canadian
+Journal of Economics* offer useful insights for smaller journals to reconcile the increasingly demanding requirements of reproducibility with their lower levels of resources.
