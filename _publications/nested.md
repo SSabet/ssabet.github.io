@@ -3,7 +3,7 @@ title: "The Nested Drift Algorithm"
 collection: publications
 category: wp
 permalink: /publication/nested
-excerpt: <p style="font-size:0.9rem; line-height:1.4; margin:0;">This is the excerpt text in a smaller font.</p>'
+excerpt: <p style="font-size:0.9rem; line-height:1.4; margin:0;">This is the excerpt text in a smaller font.</p><br/>'
 slidesurl: ''
 paperurl: ''
 bibtexurl: ''
