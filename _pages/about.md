@@ -8,12 +8,13 @@ redirect_from:
 ---
 I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
-My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, as well as the policy implications. 
-Besides that, I am interested in computational economics and, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
+My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, and to study policy implications.
 
-I hold a BSc. in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics and Theoretical Economics from [Toulouse School of Economics](https://www.tse-fr.eu/).
+On the side, I am interested in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
 
-At LSE, I have taught Macroeconomics, and Maths for Economics at both the undergraduate and graduate levels. Students have said of me: "*Amazing tutor, literally the best I have had*", "*humble, patient, enlightened*", "*amazing presentation skills, ability to explain things clearly and a great sense of humor*", '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious.*'
+I hold a BSc. in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics (M1) and Econometrics and Theoretical Economics (M2) from [Toulouse School of Economics](https://www.tse-fr.eu/).
+
+At LSE, I have taught Macroeconomics and Maths for Economics at both the undergraduate and graduate levels. Students have said of me: "*Amazing presentation skills, ability to explain things clearly and a great sense of humor*", "*humble, patient, enlightened*", '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious*', and "*amazing tutor, literally the best I have had!*"
 
 <!-- '*Amazing presentation skills, ability to explain things clearly and a great sense for humor*', '*[he] understands what people don’t understand and addresses it perfectly*', '*the best seminar teacher I have ever had in the LSE*', '*proportions of math and intuition were also well-balanced*', '*Amazing tutor, literally the best I have had*', '*humble, patient, enlightened*', '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious.*' -->
 
