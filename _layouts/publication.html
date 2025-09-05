@@ -67,7 +67,7 @@ layout: default
         {% elsif page.citation and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
 	{% elsif page.paperurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <span style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></span>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
@@ -77,7 +77,7 @@ layout: default
           {% endif %}
 	  
 	{% if page.repourl %}
-          <p style="font-size: smaller"><a href="{{ page.repourl }}">Code</a></p>
+          <span style="font-size: smaller"><a href="{{ page.repourl }}">Code</a></span>
 	  {% endif %}
 	  
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
