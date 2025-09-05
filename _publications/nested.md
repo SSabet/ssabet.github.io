@@ -3,11 +3,8 @@ title: "The Nested Drift Algorithm"
 collection: publications
 category: wp
 permalink: /publication/nested
-excerpt: <p style="font-size:0.8rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.8rem;">Practical and robust method of implementing finite difference algorithms for solving higher dimensional heterogeneous agent models in continuous time.</p>
-image: '/images/nested.png'
-slidesurl: ''
+excerpt: <p style="font-size:0.8rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.8rem;">Practical and robust method of implementing finite difference algorithms for solving higher dimensional heterogeneous agent models in continuous time, using the two-asset HANK model of Kaplan-et-al (2018) as central example. </p>
 paperurl: 'http://ssabet.github.io/files/Nested.pdf'
-bibtexurl: ''
 repourl: 'https://github.com/SSabet/NestedDrift'
 ---
 We introduce a new algorithm for solving continuous time problems

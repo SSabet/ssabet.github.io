@@ -89,10 +89,12 @@ publication_category:
     title: 'Working Papers'
   wip:
     title: 'Work in Progress'
-  manuscripts:
-    title: 'Journal Articles'    
+  # manuscripts:
+  #   title: 'Journal Articles'
+  policy:
+    title: 'Policy Papers, Notes, Reports'
   old:
-    title: 'Older, Resting'
+    title: 'Pre-PhD, Resting'
   other:
     title: "Non-Econ"
     
