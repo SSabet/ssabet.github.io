@@ -55,17 +55,17 @@
     {% endif %}
 
     {% if post.paperurl %}
-    <a href="{{ post.paperurl }}" title="Download paper" aria-label="Download paper" target="_blank" rel="noopener">
+    <a href="{{ post.paperurl }}" title="Download paper" style="margin-right:0.5rem;" aria-label="Download paper" target="_blank" rel="noopener">
 	<i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i>
     </a>
     {% endif %}
     {% if post.slidesurl %}
-    <a href="{{ post.slidesurl }}" title="Download slides" aria-label="Download slides" target="_blank" rel="noopener">
+    <a href="{{ post.slidesurl }}" title="Download slides" style="margin-right:0.5rem;" aria-label="Download slides" target="_blank" rel="noopener">
 	<i class="fas fa-file-powerpoint" aria-hidden="true"></i>
     </a>
     {% endif %}
     {% if post.bibtexurl %}
-    <a href="{{ post.bibtexurl }}" title="Download BibTeX" aria-label="Download BibTeX" target="_blank" rel="noopener">
+    <a href="{{ post.bibtexurl }}" title="Download BibTeX" style="margin-right:0.5rem;" aria-label="Download BibTeX" target="_blank" rel="noopener">
 	<i class="fas fa-file-alt" aria-hidden="true"></i>
     </a>
     {% endif %}
