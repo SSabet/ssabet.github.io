@@ -3,7 +3,7 @@ title: "The Nested Drift Algorithm"
 collection: publications
 category: wp
 permalink: /publication/nested
-excerpt: <p style="font-size:0.9rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><img src='/images/nested.png'>'
+excerpt: <p style="font-size:0.9rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a><img src='/images/nested.png'></p>
 slidesurl: ''
 paperurl: 'http://ssabet.github.io/files/Nested.pdf'
 bibtexurl: ''
