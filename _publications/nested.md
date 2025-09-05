@@ -8,6 +8,7 @@ image: '/images/nested.png'
 slidesurl: ''
 paperurl: 'http://ssabet.github.io/files/Nested.pdf'
 bibtexurl: ''
+repourl: 'https://github.com/SSabet/NestedDrift'
 ---
 We introduce a new algorithm for solving continuous time problems
 with multiple endogenous state variables in a finite–difference scheme.
