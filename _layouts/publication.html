@@ -67,17 +67,17 @@ layout: default
         {% elsif page.citation and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
 	{% elsif page.paperurl %}
-          <span style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></span>
+          <span style="font-size: smaller"><a href="{{ page.paperurl }}" style="margin-right:1.5rem;">Download Paper</a></span>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}" style="margin-right:1.5rem;">Download Slides</a></p>
         {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}" style="margin-right:1.5rem;">Download Bibtex</a></p>
           {% endif %}
 	  
 	{% if page.repourl %}
-          <span style="font-size: smaller"><a href="{{ page.repourl }}">Code</a></span>
+          <span style="font-size: smaller"><a href="{{ page.repourl }}" style="margin-right:1.5rem;">Code</a></span>
 	  {% endif %}
 	  
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

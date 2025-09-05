@@ -3,7 +3,7 @@ title: "The Nested-Drift Algorithm"
 collection: publications
 category: wp
 permalink: /publication/nested
-excerpt: <p style="font-size:0.8rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.8rem;">Efficient and robust method of implementing finite difference algorithms for solving heterogeneous agent models in continuous time with multiple endogenous state variables, using the two-asset HANK model of Kaplan-et-al (2018) as an example. </p>
+excerpt: <p style="font-size:0.85rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.85rem;">Efficient and robust method of implementing finite difference algorithms for solving heterogeneous agent models in continuous time with multiple endogenous state variables, using the two-asset HANK model of Kaplan-et-al (2018) as an example. </p>
 paperurl: 'http://ssabet.github.io/files/Nested.pdf'
 repourl: 'https://github.com/SSabet/NestedDrift'
 ---
