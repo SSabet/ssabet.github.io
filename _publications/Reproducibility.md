@@ -1,12 +1,12 @@
 ---
-title: "The Nested-Drift Algorithm"
+title: "Reproducibility and Data Policy for Small (Open) Journals"
 collection: publications
-category: wp
-permalink: /publication/Nested
-excerpt: <p style="font-size:0.85rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.85rem;">Efficient and robust method of implementing finite difference algorithms for solving heterogeneous agent models in continuous time with multiple endogenous state variables, using the two-asset HANK model of Kaplan-et-al (2018) as an example. </p
+category: policy
+permalink: /publication/Reproducibility
+excerpt: <p style="font-size:0.85rem;">Report on the state of reproducibility in the economic journals, best practices, costs and limits of current practices, and feasible solutions for Data and Code policy for smaller journals, commissioned by <a href="https://www.lse.ac.uk/economics/about-us/economica"> Economica</a>. </p>
 date: 2025-09-05
-paperurl: 'http://ssabet.github.io/files/Nested.pdf'
-repourl: 'https://github.com/SSabet/NestedDrift'
+paperurl: 'http://ssabet.github.io/files/Reproducibility.pdf'
+repourl: 'https://github.com/SSabet/reproducibility-econ-journals'
 ---
 We introduce a new algorithm for solving continuous time problems
 with multiple endogenous state variables in a finite–difference scheme.
