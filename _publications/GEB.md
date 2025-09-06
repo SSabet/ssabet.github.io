@@ -1,12 +1,16 @@
 ---
-title: "Gödel, Escher, Bach: an Eternal Golden Braid, by *Douglas Hofstadter*"
+title: "*Hofstadter, D. R.* (1999). Gödel, Escher, Bach: an Eternal Golden Braid"
 collection: publications
 category: other
 permalink: /publication/GEB
 excerpt: <p style="font-size:0.85rem;">Translated into Persian, with <em>Morteza Khazanehdari</em>, and  <em>Abdolreza Khazanehdari</em> </p>
 date: 2016-01-01
 venue: 'Nashr-e-Markaz'
-
+slidesurl: 'https://archive.org/download/GEBen_201706/GEBen.pdf'
+paperurl: 'https://archive.org/download/GEBen_201706/GEBen.pdf'
+bibtexurl: 'https://scholar.googleusercontent.com/scholar.bib?q=info:P9TeTR98xxsJ:scholar.google.com/&output=citation&scisdr=CgIKii5FEP3iv3lbkw0:AAZF9b8AAAAAaLxdiw0VYB9RUVlMRaNq59epY7Y&scisig=AAZF9b8AAAAAaLxdi3D7TPwkVdZyBQxKf3uXKig&scisf=4&ct=citation&cd=-1&hl=en'
+citation: ''
+repourl: ''
 ---
 ## From the Preface to the Twentieth-anniversary
 How it is that animate beings can come out of inanimate matter. What is a self, and how can a self
