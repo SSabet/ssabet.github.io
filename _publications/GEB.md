@@ -16,6 +16,6 @@ GEB approaches these questions by slowly building up an analogy that likens inan
 
 the G6delian strange loop that arises in formal systems in mathematics (i.e., collections of rules for churning out an endless series of mathematical truths solely by mechanical symbol-shunting without any regard to meanings or ideas hidden in the shapes being manipulated) is a loop that allows such a system to "perceive itself", to talk about itself, to become "self-aware", and in a sense it would not be going too far to say that by virtue of having such a loop, a formal system *acquires a self*.
 
-<img src='/images/DrawingHands.png'>
+<img src='/images/DrawingHands.jpg'>
 
 [Link to the Amazon Page of the Original Book](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567)

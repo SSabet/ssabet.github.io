@@ -3,7 +3,7 @@ title: "Impulse, Response, and Anticipation in Time-space Jacobians: Or How to S
 collection: publications
 category: wp
 permalink: /publication/TSJ
-excerpt: <p style="font-size:0.85rem;">with <a href="https://www.lse.ac.uk/economics/people/research-students/stephan-hobler">Stephan Hobler</a></p><p style="font-size:0.9rem; line-height:1.4; margin:0;">This paper presents an efficient method of calculating the continuous-time transition path of a heterogeneous-agent economy in steady state in response to a perturbation path (<it>aka</it> MIT shock path) affecting a price or another variable. In other words, it is a continuous-time counterpart of (Auclert et al. 2021).</p>
+excerpt: <p style="font-size:0.85rem;">with <a href="https://www.lse.ac.uk/economics/people/research-students/stephan-hobler">Stephan Hobler</a></p><p style="font-size:0.85rem; line-height:1.4; margin:0;">This paper presents an efficient method of calculating the continuous-time transition path of a heterogeneous-agent economy in steady state in response to a perturbation path (<it>aka</it> MIT shock path) affecting a price or another variable. In other words, it is a continuous-time counterpart of (Auclert et al. 2021).</p>
 date: 2025-02-01
 
 ---

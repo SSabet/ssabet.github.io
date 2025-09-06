@@ -18,4 +18,5 @@ are exhausted. The algorithm improves on the existing ‘split–drift’
 approach from (Kaplan et al., 2018; Achdou et al., 2022), which can
 fail under some parameter settings because it is not guaranteed to be
 consistent.
+
 <img src='/images/nested.png'>
