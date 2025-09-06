@@ -5,6 +5,8 @@ category: wp
 permalink: /publication/Nested
 excerpt: <p style="font-size:0.85rem;">with <a href="https://www.patrickmschneider.com/">Patrick Schneider</a></p><p style="font-size:0.85rem;">Efficient and robust method of implementing finite difference algorithms for solving heterogeneous agent models in continuous time with multiple endogenous state variables, using the two-asset HANK model of Kaplan-Moll-Violante (2018) as lead example. </p>
 date: 2025-09-05
+paperurl: 'http://ssabet.github.io/files/Nested.pdf'
+repourl: 'https://github.com/SSabet/NestedDrift'
 ---
 We introduce a new algorithm for solving continuous time problems
 with multiple endogenous state variables in a finite–difference scheme.
