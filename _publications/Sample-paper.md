@@ -1,7 +1,7 @@
 ---
 title: "Sample Paper"
 collection: publications
-category: other
+category:
 permalink: /publication/Sample
 excerpt: 'This paper is about a sample. The prototype is left for future work.'
 date: 2010-10-01
