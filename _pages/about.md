@@ -10,7 +10,7 @@ I am a PhD candidate in Economics at the [London School of Economics and Politic
 
 My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, and to study policy implications.
 
-On the side, I am interested in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
+In addition, I have explored topics in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
 
 I hold a BSc. in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics (M1) and Econometrics and Theoretical Economics (M2) from [Toulouse School of Economics](https://www.tse-fr.eu/).
 
