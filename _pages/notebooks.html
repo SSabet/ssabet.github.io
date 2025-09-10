@@ -4,11 +4,12 @@ title: "Macro Notebooks"
 permalink: /notebooks/
 author_profile: true
 entries_layout: list
-classes: notebooks-index 
 ---
 
 {% include base_path %}
 
-{% for post in site.notebooks %}
-  {% include archive-single-notebook.html %}
-{% endfor %}
+<div class="notebooks-index">
+    {% for post in site.notebooks %}
+    {% include archive-single-notebook.html post=post %}
+    {% endfor %}
+</div>
