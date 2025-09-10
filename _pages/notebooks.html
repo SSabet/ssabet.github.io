@@ -3,13 +3,11 @@ layout: archive
 title: "Macro Notebooks"
 permalink: /notebooks/
 author_profile: true
-entries_layout: list
+entries_layout: grid
 ---
 
 {% include base_path %}
 
-<div class="notebooks-index">
-    {% for post in site.notebooks %}
-    {% include archive-single-notebook.html post=post %}
-    {% endfor %}
-</div>
+{% for post in site.notebooks %}
+  {% include archive-single.html %}
+{% endfor %}
