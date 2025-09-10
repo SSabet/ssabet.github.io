@@ -1,0 +1,33 @@
+{% comment %}
+Renders a single collection entry in a 2/3–1/3 split with an optional teaser image.
+Usage: {% include archive-single-notebook.html post=post %}
+{% endcomment %}
+
+{% assign p = include.post | default: post %}
+{% assign teaser = p.header.teaser | default: p.teaser | default: site.teaser %}
+
+<article class="archive__item notebook-card {% if teaser %}has-teaser{% endif %}" itemscope itemtype="https://schema.org/CreativeWork">
+  <div class="notebook-card__content">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </h2>
+
+    {% if p.date %}
+    <p class="page__meta">
+      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%B %-d, %Y" }}</time>
+    </p>
+    {% endif %}
+
+    {% if p.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ p.excerpt | markdownify | strip_html }}
+      </p>
+    {% endif %}
+  </div>
+
+  {% if teaser %}
+  <a class="notebook-card__media" href="{{ p.url | relative_url }}" aria-label="Open {{ p.title }}">
+      <img src="{{ teaser | relative_url }}" alt="{{ p.teaser_alt | default: p.title | escape }}">
+  </a>
+  {% endif %}
+</article>
