@@ -10,3 +10,8 @@ entries_layout: grid
 {% for post in items %}
   {% include archive-single.html %}
 {% endfor %}
+
+<p>Notebooks in collection: {{ site.notebooks | size }}</p>
+{% for post in site.notebooks limit:1 %}
+<p>Example item title: {{ post.title }}</p>
+{% endfor %}
