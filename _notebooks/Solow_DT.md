@@ -5,3 +5,4 @@ excerpt: <p style="font-size:0.85rem;"> The Solow model in discrete time. BGP an
 date: 2023-10-15
 ---
 
+[The Solow Model](https://ssabet.github.io/macro-notebooks/Neoclassical_Growth.html)
