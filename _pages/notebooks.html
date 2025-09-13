@@ -14,20 +14,3 @@ classes: wide
     {% include archive-single.html type="grid" show_meta=false %}
     {% endfor %}
 </div>
-
-<script>
- document.addEventListener('click', function (e) {
-   const t = e.target.closest('[data-open-modal]');
-   if (!t) return;
-   e.preventDefault();
-   const id = t.getAttribute('data-open-modal');
-   const dlg = document.getElementById(id);
-   if (dlg && dlg.showModal) dlg.showModal();
-   else window.location.href = t.getAttribute('href') || '#';
- });
- document.addEventListener('click', function (e) {
-   const dlg = e.target.closest('dialog');
-   if (!dlg) return;
-   if (e.target === dlg) dlg.close(); // click backdrop closes
- });
-</script>

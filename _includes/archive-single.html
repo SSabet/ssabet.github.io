@@ -70,33 +70,31 @@
     {% endif %}
 
 
-
-	{%- comment -%}
-Always render ONE excerpt node:
+  {%- comment -%}
+Always render ONE excerpt node as plain text:
 - Prefer post.excerpt (front matter or <!--more-->)
 - Fallback to first paragraph of content
 Then:
 - Only show "Read more" if the excerpt is long
 - Optional "Notebook Preview" link if front-matter has previewurl
-- "Read more" opens a modal with the full excerpt/first paragraph
+- "Read more" links to the item page (no modal)
 {%- endcomment -%}
 
-{%- capture excerpt_html -%}
-  {%- if post.excerpt -%}
-    {{ post.excerpt | markdownify }}
-  {%- else -%}
-    {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
-    {{ first_para }}</p>
-  {%- endif -%}
-{%- endcapture -%}
+    {%- capture raw_excerpt -%}
+      {%- if post.excerpt -%}
+        {{ post.excerpt | markdownify }}
+      {%- else -%}
+        {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
+        {{ first_para }}</p>
+      {%- endif -%}
+    {%- endcapture -%}
 
-{%- assign excerpt_text = excerpt_html | strip_html | strip -%}
-{%- assign excerpt_len = excerpt_text | size -%}
-{%- assign modal_id = 'nbx-' | append: post.id | slugify -%}
+    {%- assign excerpt_text = raw_excerpt | strip_html | strip -%}
+    {%- assign excerpt_len  = excerpt_text | size -%}
 
-<p class="archive__item-excerpt" itemprop="description">{{ excerpt_html | strip }}</p>
+   <p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p>
 
-{%- comment -%} Build preview URL (optional) {%- endcomment -%}
+{%- comment -%} Optional "Notebook Preview" link {%- endcomment -%}
 {%- assign preview_href = nil -%}
 {%- if post.previewurl -%}
   {%- assign is_preview_external = post.previewurl contains '://' -%}
@@ -106,13 +104,16 @@ Then:
 
 <div class="nb-card-footer">
   {%- if excerpt_len > 280 -%}
-    <a href="#" data-open-modal="{{ modal_id }}">Read more →</a>
+    <a href="{{ post.url | relative_url }}">Read more →</a>
   {%- endif -%}
 
   {%- if preview_href -%}
     <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview</a>
-  {%- endif -%}
+    {%- endif -%}
 </div>
+
+
+
 
 {%- if excerpt_len > 280 -%}
   <dialog id="{{ modal_id }}" class="nb-modal">
@@ -127,8 +128,6 @@ Then:
     </article>
   </dialog>
   {%- endif -%}
-
-
 	
 
 
