@@ -75,6 +75,18 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
+    {% comment %} Footer link below the excerpt {% endcomment %}
+    <div class="nb-card-footer">
+      {% assign click_target = post.teaserurl | default: post.url | relative_url %}
+      {% if post.teaserurl and post.teaserurl contains "://" %}
+        {% assign click_target = post.teaserurl %}
+      {% endif %}
+      <a href="{{ click_target }}"{% if post.teaserurl and post.teaserurl contains "://" %} target="_blank" rel="noopener"{% endif %}>
+	Read more →
+      </a>
+    </div>
+
+
     {% if post.paperurl %}
     <a href="{{ post.paperurl }}" title="Download paper" style="margin-right:1.5rem;" aria-label="Download paper" target="_blank" rel="noopener">
 	<i class="fas fa-fw fa-file-pdf" aria-hidden="true" style="font-size:20px; color:red"></i>
