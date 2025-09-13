@@ -4,7 +4,7 @@ collection: notebooks
 permalink: /notebooks/stagnation
 date: 2023-10-30
 header:
-  teaser: Stagnation.png
+  teaser: Stagnation2.gif
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
