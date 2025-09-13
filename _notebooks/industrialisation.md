@@ -1,12 +1,13 @@
 ---
-title: "Stagnation"
+title: "Industrialisation"
 collection: notebooks
-permalink: /notebooks/stagnation
-date: 2023-10-30
+permalink: /notebooks/industrialisation
+date: 2023-11-08
 header:
-  teaser: Stagnation.gif
+  teaser: Industrialisation.gif
+teaserurl: https://mybinder.org/v2/gh/SSabet/ec413-pluto-notebook.jl/HEAD?urlpath=pluto/open?path=/home/jovyan/notebooks/EC413_Neoclassical_Growth.jl
 ---
-<img src='/images/Stagnation.gif'>
+<img src='/images/Solow_DT.png'>
 
 [# The Neoclassical Growth Model: Preview the Static Notebook](https://ssabet.github.io/macro-notebooks/Neoclassical_Growth.html)
 
