@@ -6,7 +6,10 @@ author_profile: true
 entries_layout: grid
 ---
 {% include base_path %}
-{% assign items = site.notebooks | sort: 'date' %}
-{% for post in items %}
-  {% include archive-single.html type="grid" show_meta=false %}
-{% endfor %}
+
+<div id="notebooks-grid">
+    {% assign items = site.notebooks | sort: 'date' %}
+    {% for post in items %}
+      {% include archive-single.html type="grid" show_meta=false %}
+    {% endfor %}
+</div>
