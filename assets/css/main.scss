@@ -40,6 +40,12 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Smaller excerpts on all archive-style pages (lists + grids) */
+.archive__item-excerpt {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 /* Notebooks grid: 1 → 2 → 3 columns, never more */
 #notebooks-grid {
   display: grid;
