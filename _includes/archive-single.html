@@ -69,22 +69,30 @@
       {% endif %}
     {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
 
-    {% comment %} Footer link below the excerpt {% endcomment %}
-    <div class="nb-card-footer">
-      {% assign click_target = post.teaserurl | default: post.url | relative_url %}
-      {% if post.teaserurl and post.teaserurl contains "://" %}
-        {% assign click_target = post.teaserurl %}
-      {% endif %}
-      <a href="{{ click_target }}"{% if post.teaserurl and post.teaserurl contains "://" %} target="_blank" rel="noopener"{% endif %}>
-	Read more →
-      </a>
-    </div>
+    {%- capture excerpt_html -%}
+      {%- if post.excerpt -%}
+        {{ post.excerpt | markdownify }}
+      {%- else -%}
+        {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
+        {{ first_para }}</p>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- assign excerpt_text = excerpt_html | strip_html | strip -%}
+    {%- assign excerpt_len = excerpt_text | size -%}
+
+    <p class="archive__item-excerpt" itemprop="description">{{ excerpt_html | strip }}</p>
+
+    {%- assign click_target = post.teaserurl | default: post.url -%}
+    {%- assign is_external_click = click_target contains '://' -%}
+    {%- unless is_external_click -%}{% assign click_target = click_target | relative_url %}{%- endunless -%}
+
+    {%- if excerpt_len > 350 -%}
+      <div class="nb-card-footer">
+        <a href="{{ click_target }}"{% if is_external_click %} target="_blank" rel="noopener"{% endif %}>Read more →</a>
+      </div>
+    {%- endif -%}
 
 
     {% if post.paperurl %}
