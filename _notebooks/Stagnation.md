@@ -6,7 +6,6 @@ date: 2023-10-30
 header:
   teaser: Stagnation.gif
 ---
-<img src='/images/Stagnation.gif'>
 
 [# The Neoclassical Growth Model: Preview the Static Notebook](https://ssabet.github.io/macro-notebooks/Neoclassical_Growth.html)
 
