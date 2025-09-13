@@ -22,12 +22,13 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       {% assign teaser_url = teaser %}
+      {% assign teaser_first = teaser_url | slice: 0, 1 %}
       {% if teaser_url contains "://" %}
         {% assign teaser_final = teaser_url %}
-      {% elsif teaser_url startswith "/" %}
+      {% elsif teaser_first == "/" %}
         {% assign teaser_final = teaser_url | relative_url %}
       {% else %}
         {% assign teaser_final = teaser_url | prepend: "/images/" | relative_url %}
@@ -38,11 +39,11 @@
           <a href="{{ click_href }}"{% if is_external %} target="_blank" rel="noopener"{% endif %} aria-label="{{ title | strip_html }}">
           <img src="{{ teaser_final }}" alt="{{ title | strip_html }}">
          </a>
-      {% else %}
-        <img src="{{ teaser_final }}" alt="{{ title | strip_html }}">
-      {% endif %}
-    </div>
-  {% endif %}
+        {% else %}
+          <img src="{{ teaser_final }}" alt="{{ title | strip_html }}">
+        {% endif %}
+      </div>
+    {% endif %}
 
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
