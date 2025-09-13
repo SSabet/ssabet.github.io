@@ -1,30 +1,48 @@
 {% include base_path %}
 
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+{% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %}
+{% assign title = post.title %}
+{% endif %}
+
+{% assign click_raw = post.teaserurl | default: post.url %}
+{% assign is_external = false %}
+{% if click_raw contains "://" %}
+  {% assign click_href = click_raw %}
+  {% assign is_external = true %}
+{% elsif click_raw %}
+  {% assign click_href = click_raw | relative_url %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
+      {% assign teaser_url = teaser %}
+      {% if teaser_url contains "://" %}
+        {% assign teaser_final = teaser_url %}
+      {% elsif teaser_url startswith "/" %}
+        {% assign teaser_final = teaser_url | relative_url %}
+      {% else %}
+        {% assign teaser_final = teaser_url | prepend: "/images/" | relative_url %}
+      {% endif %}
+
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+        {% if click_href %}
+          <a href="{{ click_href }}"{% if is_external %} target="_blank" rel="noopener"{% endif %} aria-label="{{ title | strip_html }}">
+          <img src="{{ teaser_final }}" alt="{{ title | strip_html }}">
+         </a>
+      {% else %}
+        <img src="{{ teaser_final }}" alt="{{ title | strip_html }}">
+      {% endif %}
+    </div>
+  {% endif %}
 
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
