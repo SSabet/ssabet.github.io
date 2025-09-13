@@ -46,6 +46,36 @@
   line-height: 1.45;
 }
 
-.layout--archive .grid__item { width: 100%; }
-@media (min-width: 720px)  { .layout--archive .grid__item { width: 50%; } }
-@media (min-width: 1200px) { .layout--archive .grid__item { width: 33.3333%; } }
+/* --- Notebooks page: use CSS Grid, neutralize theme floats --- */
+#notebooks-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1199px) {
+  #notebooks-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 719px) {
+  #notebooks-grid { grid-template-columns: 1fr; }
+}
+
+/* Kill float layout + gutters that cause collisions */
+#notebooks-grid .grid__item {
+  float: none !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;           /* remove theme’s outer margins */
+}
+
+/* Also remove inner margins the theme adds on archive items */
+#notebooks-grid .archive__item { margin: 0 !important; }
+
+/* Make teaser images behave predictably */
+#notebooks-grid .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: 160px;                  /* your standard size */
+  object-fit: cover;
+}
