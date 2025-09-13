@@ -70,29 +70,66 @@
     {% endif %}
 
 
-    {%- capture excerpt_html -%}
-      {%- if post.excerpt -%}
-        {{ post.excerpt | markdownify }}
-      {%- else -%}
-        {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
-        {{ first_para }}</p>
-      {%- endif -%}
-    {%- endcapture -%}
 
-    {%- assign excerpt_text = excerpt_html | strip_html | strip -%}
-    {%- assign excerpt_len = excerpt_text | size -%}
+	{%- comment -%}
+Always render ONE excerpt node:
+- Prefer post.excerpt (front matter or <!--more-->)
+- Fallback to first paragraph of content
+Then:
+- Only show "Read more" if the excerpt is long
+- Optional "Notebook Preview" link if front-matter has previewurl
+- "Read more" opens a modal with the full excerpt/first paragraph
+{%- endcomment -%}
 
-    <p class="archive__item-excerpt" itemprop="description">{{ excerpt_html | strip }}</p>
+{%- capture excerpt_html -%}
+  {%- if post.excerpt -%}
+    {{ post.excerpt | markdownify }}
+  {%- else -%}
+    {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
+    {{ first_para }}</p>
+  {%- endif -%}
+{%- endcapture -%}
 
-    {%- assign click_target = post.teaserurl | default: post.url -%}
-    {%- assign is_external_click = click_target contains '://' -%}
-    {%- unless is_external_click -%}{% assign click_target = click_target | relative_url %}{%- endunless -%}
+{%- assign excerpt_text = excerpt_html | strip_html | strip -%}
+{%- assign excerpt_len = excerpt_text | size -%}
+{%- assign modal_id = 'nbx-' | append: post.id | slugify -%}
 
-    {%- if excerpt_len > 350 -%}
-      <div class="nb-card-footer">
-        <a href="{{ click_target }}"{% if is_external_click %} target="_blank" rel="noopener"{% endif %}>Read more →</a>
+<p class="archive__item-excerpt" itemprop="description">{{ excerpt_html | strip }}</p>
+
+{%- comment -%} Build preview URL (optional) {%- endcomment -%}
+{%- assign preview_href = nil -%}
+{%- if post.previewurl -%}
+  {%- assign is_preview_external = post.previewurl contains '://' -%}
+  {%- assign preview_href = post.previewurl -%}
+  {%- unless is_preview_external -%}{% assign preview_href = preview_href | relative_url %}{%- endunless -%}
+{%- endif -%}
+
+<div class="nb-card-footer">
+  {%- if excerpt_len > 280 -%}
+    <a href="#" data-open-modal="{{ modal_id }}">Read more →</a>
+  {%- endif -%}
+
+  {%- if preview_href -%}
+    <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview</a>
+  {%- endif -%}
+</div>
+
+{%- if excerpt_len > 280 -%}
+  <dialog id="{{ modal_id }}" class="nb-modal">
+    <article>
+      <header class="nb-modal__header">
+        <h3>{{ post.title }}</h3>
+        <form method="dialog"><button aria-label="Close">×</button></form>
+      </header>
+      <div class="nb-modal__body">
+          {{ excerpt_html }}
       </div>
-    {%- endif -%}
+    </article>
+  </dialog>
+  {%- endif -%}
+
+
+	
 
 
     {% if post.paperurl %}
