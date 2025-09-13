@@ -10,7 +10,7 @@ teaserurl: https://mybinder.org/v2/gh/SSabet/ec413-pluto-notebook.jl/HEAD?urlpat
 ---
 Neoclassical Growth model. (Representative) Firm and Household problems. Characterization of the equilibrium. The Consumption Euler equation. Equilibrium, and welfare. Recursive formulation. Bellman equations for the original, and detrended problem. Solving the Bellman equation with Guess and Verify. The Value function iteration (VFI): intro to numerical methods. Transitional dynamics, saving rates, and elasticity of inter-temporal substitution.
 
-Neoclassical Growth model. (Representative) Firm and Household problems. Characterization of the equilibrium. The Consumption Euler equation. Equilibrium, and welfare. Recursive formulation. Bellman equations for the original, and detrended problem. Solving the Bellman equation with Guess and Verify. The Value function iteration (VFI): intro to numerical methods. Transitional dynamics, saving rates, and elasticity of inter-temporal substitution.
+===
 
 [The Neoclassical Growth Model: Preview the Static Notebook](https://ssabet.github.io/macro-notebooks/Neoclassical_Growth.html)
 
