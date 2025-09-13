@@ -76,7 +76,7 @@ Always render ONE excerpt node as plain text:
 - Fallback to first paragraph of content
 Then:
 - Only show "Read more" if the excerpt is long
-- Optional "Notebook Preview" link if front-matter has previewurl
+- Optional "Notebook Preview (Static)" link if front-matter has previewurl
 - "Read more" links to the item page (no modal)
 {%- endcomment -%}
 
@@ -108,7 +108,7 @@ Then:
   {%- endif -%}
 
   {%- if preview_href -%}
-    <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview</a>
+    <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview (Static)</a>
     {%- endif -%}
 </div>
 
