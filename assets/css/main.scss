@@ -46,6 +46,12 @@
   line-height: 1.45;
 }
 
+/* Only on the Notebooks page */
+#notebooks-grid .archive__item > p:first-of-type {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
 /* ---- NOTEBOOKS PAGE GRID (place at the very end of main.scss) ---- */
 #notebooks-grid {
   display: grid !important;
