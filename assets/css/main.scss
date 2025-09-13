@@ -46,24 +46,6 @@
   line-height: 1.45;
 }
 
-/* Notebooks grid: 1 → 2 → 3 columns, never more */
-#notebooks-grid {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: 1fr;                 /* 1 col by default */
-}
-
-@media (min-width: 720px) {
-  #notebooks-grid { grid-template-columns: repeat(2, 1fr); }  /* 2 cols */
-}
-
-@media (min-width: 1200px) {
-  #notebooks-grid { grid-template-columns: repeat(3, 1fr); }  /* 3 cols max */
-}
-
-/* Neutralize theme’s grid item sizing so our CSS grid rules take over */
-#notebooks-grid .grid__item {
-  float: none !important;
-  width: auto !important;
-  max-width: none !important;
-}
+.layout--archive .grid__item { width: 100%; }
+@media (min-width: 720px)  { .layout--archive .grid__item { width: 50%; } }
+@media (min-width: 1200px) { .layout--archive .grid__item { width: 33.3333%; } }
