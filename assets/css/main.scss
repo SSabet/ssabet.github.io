@@ -6,7 +6,10 @@
  *
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+*/
+
+/* Put this at the very top of assets/css/main.scss, BEFORE the imports */
+$type-size-6: 0.9rem;
 
 @import
     "vendor/breakpoint/breakpoint",
