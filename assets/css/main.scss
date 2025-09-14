@@ -160,3 +160,19 @@
 /* Footer pinned to bottom, minimal gap */
 #notebooks-grid .nb-card-footer { margin-top:auto; display:flex; flex-direction:column; gap:.15rem; padding-top:.15rem; }
 #notebooks-grid .nb-card-footer a { text-decoration:none; border-bottom:1px solid currentColor; font-size:0.9rem; align-self:flex-start; }
+
+/* More vertical space between rows on the Notebooks grid */
+#notebooks-grid {
+  column-gap: 1.25rem;   /* keep current horizontal spacing */
+  row-gap: 2rem;         /* increase vertical spacing (tweak to taste) */
+}
+
+/* Fallback for older browsers */
+#notebooks-grid {
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 2rem;
+}
+
+/* Optional: give the whole section some breathing room at the bottom */
+#notebooks-grid { padding-bottom: 1rem; }
+
