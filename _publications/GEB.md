@@ -3,10 +3,6 @@ title: "*Hofstadter, D. R.* (1999). Gödel, Escher, Bach: an Eternal Golden Brai
 collection: publications
 category: other
 permalink: /publication/GEB
-coauthors:
-  - name: "Morteza Khazanehdari"
-    url: "https://alice.example.com"
-  - name: "Abdolreza Khazanehdari"     # no URL is fine
 excerpt: <p style="font-size:0.85rem;">Translated into Persian, with <em>Morteza Khazanehdari</em>, and  <em>Abdolreza Khazanehdari</em> </p>
 date: 2016-01-01
 venue: 'Nashr-e-Markaz'
