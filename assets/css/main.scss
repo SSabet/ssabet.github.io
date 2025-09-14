@@ -137,7 +137,17 @@
 .layout--archive .archive__item-excerpt { margin-bottom: .25rem; }
 .layout--archive .archive__item-excerpt + p,
 .layout--archive .page__meta { margin-top: .25rem; }
+
 .layout--archive .list__item .archive__item { padding-bottom: .5rem; border-bottom: 1px solid #eee; }
+
+/* Coauthors line on list cards */
+.pub__coauthors { margin: .25rem 0 .25rem; font-size: 0.9rem; }
+.pub__coauthors a { text-decoration: none; border-bottom: 1px solid currentColor; }
+
+/* Publication item page resource links */
+.pub-links { margin: .5rem 0 0; }
+.pub-links__row { margin: .25rem 0; font-size: 0.9rem; }
+.pub-links__row i { margin-left: .4rem; }
 
 /* More vertical space between rows on the Notebooks grid */
 #notebooks-grid {
