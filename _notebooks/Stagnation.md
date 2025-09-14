@@ -1,5 +1,5 @@
 ---
-title: "Stagnation"
+title: "Stagnation -> Modern Growth"
 collection: notebooks
 permalink: /notebooks/stagnation
 date: 2023-10-30

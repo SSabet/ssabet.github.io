@@ -1,5 +1,5 @@
 ---
-title: "Industrialisation"
+title: "Industrialisation (and Food!)"
 collection: notebooks
 permalink: /notebooks/industrialisation
 date: 2023-11-08
