@@ -3,7 +3,14 @@ title: "Évaluation du plan France Relance à l’aide d’un modèle de HANK *[
 collection: publications
 category: policy
 permalink: /publication/FRST
-excerpt: <p style="font-size:0.85rem;">with <a href="https://adriencouturier.com/"> Adrien Couturier,</a> <a href="https://benjaminmoll.com/"> Ben Moll,</a> and <a href="https://www.r2rsquared.com/"> Ricardo Reis</a></p> <p style="font-size:0.85rem;"> We use a HANK-type model to evaluate the impact of France Relance fiscal stimulus, run in the aftermath of the pandemic, on the French economy, both in terms of the aggregate variables and the gain distribution across households. </p>
+coauthors:
+  - name: "Adrien Couturier"
+    url: "https://adriencouturier.com/"
+  - name: "Ben Moll"
+    url: "https://benjaminmoll.com/"
+  - name: "Ricardo Reis"
+    url: "https://www.r2rsquared.com"
+excerpt: "We use a HANK-type model to evaluate the impact of France Relance fiscal stimulus, run in the aftermath of the pandemic, on the French economy, both in terms of the aggregate variables and the gain distribution across households."
 date: 2024-12-09
 paperurl: 'http://ssabet.github.io/files/FRST_draft.pdf'
 venue: CFM
