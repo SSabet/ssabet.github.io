@@ -164,13 +164,13 @@
 /* More vertical space between rows on the Notebooks grid */
 #notebooks-grid {
   column-gap: 1.25rem;   /* keep current horizontal spacing */
-  row-gap: 3rem;         /* increase vertical spacing (tweak to taste) */
+  row-gap: 4rem;         /* increase vertical spacing (tweak to taste) */
 }
 
 /* Fallback for older browsers */
 #notebooks-grid {
   grid-column-gap: 1.25rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 4rem;
 }
 
 /* Optional: give the whole section some breathing room at the bottom */
