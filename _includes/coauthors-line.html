@@ -1,0 +1,15 @@
+{% if include.coauthors and include.coauthors.size > 0 %}
+<p class="pub__coauthors">
+  with
+  {% for a in include.coauthors %}
+    {% assign name = a.name | default: a %}
+    {% assign url  = a.url  | default: nil %}
+    {% if forloop.last and forloop.index0 > 0 %} and {% elsif forloop.index0 > 0 %}, {% endif %}
+    {% if url %}
+    <a href="{{ url | relative_url }}"{% if url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ name }}</a>
+    {% else %}
+    {{ name }}
+    {% endif %}
+    {% endfor %}
+</p>
+{% endif %}

@@ -52,6 +52,11 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
 	{% endif %}
     </h3>
+
+    {% if post.collection == 'publications' %}
+    {% include coauthors-line.html coauthors=post.coauthors %}
+    {% endif %}
+
     
     {% if include.show_meta != false %}
       {% if post.read_time %}
@@ -92,28 +97,28 @@ Then:
     {%- assign excerpt_text = raw_excerpt | strip_html | strip -%}
     {%- assign excerpt_len  = excerpt_text | size -%}
 
-   <p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p>
+	<p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p>
 
-{%- comment -%} Optional "Notebook Preview" link {%- endcomment -%}
-{%- assign preview_href = nil -%}
-{%- if post.previewurl -%}
-  {%- assign is_preview_external = post.previewurl contains '://' -%}
-  {%- assign preview_href = post.previewurl -%}
-  {%- unless is_preview_external -%}{% assign preview_href = preview_href | relative_url %}{%- endunless -%}
-{%- endif -%}
+	{%- comment -%} Optional "Notebook Preview" link {%- endcomment -%}
+	{%- assign preview_href = nil -%}
+	{%- if post.previewurl -%}
+	{%- assign is_preview_external = post.previewurl contains '://' -%}
+	{%- assign preview_href = post.previewurl -%}
+	{%- unless is_preview_external -%}{% assign preview_href = preview_href | relative_url %}{%- endunless -%}
+	{%- endif -%}
 
-
-   <div class="nb-card-footer">
-  {%- if excerpt_len > 280 -%}
-    <a href="{{ post.url | relative_url }}">Read more →</a>
-  {%- endif -%}
-
-  {%- if preview_href -%}
-    <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview (Static)</a>
-    {%- endif -%}
-</div>
-
-
+	{%- if include.type == "grid" -%}
+	<div class="nb-card-footer">
+	    {%- if excerpt_len > 280 -%}
+	    <a href="{{ post.url | relative_url }}">Read more →</a>
+	    {%- endif -%}
+	    
+	    {%- if preview_href -%}
+	    <a class="nb-preview"{% if is_preview_external %} target="_blank" rel="noopener"{% endif %} href="{{ preview_href }}">Notebook Preview (Static)</a>
+	    {%- endif -%}
+	</div>
+	{%- endif -%}
+	
 
 
 {%- if excerpt_len > 280 -%}
