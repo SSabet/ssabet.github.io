@@ -179,3 +179,7 @@ $type-size-6: 0.9rem;
 /* Optional: give the whole section some breathing room at the bottom */
 #notebooks-grid { padding-bottom: 1rem; }
 
+p, ul, ol, li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
