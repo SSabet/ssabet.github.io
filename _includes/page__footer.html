@@ -1,0 +1,11 @@
+{% if page.collection == 'publications' %}
+<div class="pub-links" aria-label="Publication resources">
+    {% include pub-links.html %}
+</div>
+{% endif %}
+
+<footer class="page__meta">
+    {% include page__taxonomy.html %}
+</footer>
+
+{% include social-share.html %}

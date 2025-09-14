@@ -1,0 +1,41 @@
+{% assign link_rows = "" %}
+
+{% capture row_paper %}
+{% if page.paperurl %}
+  <div class="pub-links__row">
+    <a href="{{ page.paperurl | relative_url }}"{% if page.paperurl contains '://' %} target="_blank" rel="noopener"{% endif %}>The paper</a>
+    <i class="fa fa-fw fa-file-pdf" aria-hidden="true"></i>
+  </div>
+{% endif %}
+{% endcapture %}
+{{ row_paper }}
+
+{% capture row_slides %}
+{% if page.slidesurl %}
+  <div class="pub-links__row">
+    <a href="{{ page.slidesurl | relative_url }}"{% if page.slidesurl contains '://' %} target="_blank" rel="noopener"{% endif %}>The slides</a>
+    <i class="fa fa-fw fa-file-powerpoint" aria-hidden="true"></i>
+  </div>
+{% endif %}
+{% endcapture %}
+{{ row_slides }}
+
+{% capture row_repo %}
+{% if page.repourl %}
+  <div class="pub-links__row">
+    <a href="{{ page.repourl | relative_url }}"{% if page.repourl contains '://' %} target="_blank" rel="noopener"{% endif %}>The repository</a>
+    <i class="fa fa-fw fa-code" aria-hidden="true"></i>
+  </div>
+{% endif %}
+{% endcapture %}
+{{ row_repo }}
+
+{% capture row_bib %}
+{% if page.bibtexurl %}
+  <div class="pub-links__row">
+    <a href="{{ page.bibtexurl | relative_url }}"{% if page.bibtexurl contains '://' %} target="_blank" rel="noopener"{% endif %}>The BibTeX</a>
+    <i class="fa fa-fw fa-quote-right" aria-hidden="true"></i>
+  </div>
+  {% endif %}
+  {% endcapture %}
+  {{ row_bib }}
