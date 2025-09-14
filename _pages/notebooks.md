@@ -13,7 +13,7 @@ This page contains links to interactive notebooks that I created for (beginning)
 - There are few half-complete notebooks, related to business fluctuations and monetary economics, as well as some underlying mathematical concepts such as contraction mapping. Stay tuned for updates!
 - Don't hesitate to reach out if you have feedback on the content, or need some advice on implementing something similar for your course!
 </div>
-
+<br>
 
 {% include base_path %}
 
