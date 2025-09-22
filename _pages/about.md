@@ -8,11 +8,11 @@ redirect_from:
 ---
 I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
-My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, and to study policy implications. For more on my research, check out the [Publication](https://ssabet.github.io/publications/) page.
+My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, and to study policy implications. For more on my research, check out the [Publications](https://ssabet.github.io/publications/).
 
-In addition, I have explored topics in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. More on this on the [Code and Data](https://ssabet.github.io/code/) page. 
+In addition, I have explored topics in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. More on this on the [Code and Data](https://ssabet.github.io/code/). 
 
-While teaching (graduate) Macroeconomics in 2023 at the LSE, I experimented with creating several Macroeconomic Notebooks using the Pluto package (part of the Julia ecosystem), to help my students develop intuition for the macro models they were being taught. Visit the [Macro Notebooks](https://ssabet.github.io/notebooks/) page to find out more.
+While teaching (graduate) Macroeconomics in 2023 at the LSE, I experimented with creating Macroeconomic Notebooks using the Pluto package (part of the Julia ecosystem), to help my students develop intuition for the macro models they were being taught. They loved it! Visit the [Macro Notebooks](https://ssabet.github.io/notebooks/) page to find out more.
 
 I hold a BSc. in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics (M1) and Econometrics and Theoretical Economics (M2) from [Toulouse School of Economics](https://www.tse-fr.eu/).
 
