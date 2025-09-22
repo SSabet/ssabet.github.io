@@ -14,7 +14,6 @@ In addition, I have explored topics in computational economics, in particular, s
 
 I hold a BSc. in Computer Science from Sharif University of Technology, and Masters in Decision Mathematics (M1) and Econometrics and Theoretical Economics (M2) from [Toulouse School of Economics](https://www.tse-fr.eu/).
 
-At LSE, I have taught Macroeconomics and Maths for Economics at both the undergraduate and graduate levels. Students have said of me: "*[He has] amazing presentation skills, ability to explain things clearly and a great sense of humor*", "*[he is] humble, patient, enlightened*", '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious*', and "*amazing tutor, literally the best I have had!*"
 
 <!-- '*Amazing presentation skills, ability to explain things clearly and a great sense for humor*', '*[he] understands what people don’t understand and addresses it perfectly*', '*the best seminar teacher I have ever had in the LSE*', '*proportions of math and intuition were also well-balanced*', '*Amazing tutor, literally the best I have had*', '*humble, patient, enlightened*', '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious.*' -->
 
