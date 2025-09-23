@@ -4,9 +4,9 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-At LSE, I have taught Macroeconomics at both the undergraduate (EC1B5, EC301) and graduate levels (EC413), Math Boot Camp for the graduate students (EC400), and Foundations of Economics for the first year undergraduate students in Economics.
+At LSE, I have taught Macroeconomics at both the undergraduate (EC1B5, EC301) and graduate levels (EC413), Math Boot Camp for the incoming graduate students (EC400), and Foundations of Economics for the first year undergraduate students in Economics (EC102).
 
-Some rewarding excerpts from my latest teaching evaluation (Fall 2024): "*[He has] amazing presentation skills, ability to explain things clearly and a great sense of humor*", "*[he is] humble, patient, enlightened*", "*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious*", and "*amazing tutor, literally the best I have had!*" [Here](https://ssabet.github.io/files/04-EC413_AT24_Soroush_Sabet.pdf) you can find the full teaching evaluation file.
+Few rewarding expressions from my latest teaching evaluation:  "*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious*", "*[he is] humble, patient, enlightened*", "*[he has] amazing presentation skills, ability to explain things clearly and a great sense of humor*", and "*amazing tutor, literally the best I have had!*" [Here](https://ssabet.github.io/files/04-EC413_AT24_Soroush_Sabet.pdf) you can find the full teaching evaluation file.
 
 {% include base_path %}
 
