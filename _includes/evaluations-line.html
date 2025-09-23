@@ -1,7 +1,7 @@
 {% if include.evaluations and include.evaluations.size > 0 %}
 <p class="teach__evals">
-  Teaching Evaluation:
-  {% for e in include.evaluations %}
+    <span class="teach__evals-label">Teaching Evaluation:</span>
+    {% for e in include.evaluations %}
     {% assign year = e.year | default: '' %}
     {% assign score = e.evaluation | default: '' %}
     {% assign label = year %}

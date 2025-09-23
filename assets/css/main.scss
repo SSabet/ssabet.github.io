@@ -206,3 +206,20 @@ h1, h2, h3, h4, h5, h6,
   text-decoration: none;
   border-bottom: 1px solid currentColor; /* keep your existing link look */
 }
+
+/* Teaching evaluations line: italicize entries but not the label */
+.teach__evals { 
+  margin: .25rem 0 .25rem;
+  font-style: italic;                 /* entries italic by default */
+}
+.teach__evals .teach__evals-label {
+  font-style: normal;                 /* keep label upright */
+  font-weight: 600;
+  margin-right: .25rem;               /* small gap after the label */
+}
+
+/* Optional: make linked evaluation entries keep the same look */
+.teach__evals a { 
+  text-decoration: none; 
+  border-bottom: 1px solid currentColor; 
+}
