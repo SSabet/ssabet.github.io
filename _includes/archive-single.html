@@ -70,52 +70,34 @@
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}
       {% elsif post.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-	  {% endif %}
-	  {% endif %}
+        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+    {% endif %}
 
 
-	  {%- comment -%}
-	  Always render ONE excerpt node as plain text:
-	  - Prefer post.excerpt (front matter or <!--more-->)
-	  - Fallback to first paragraph of content
-	  Then:
-	  - Only show "Read more" if the excerpt is long
-	  - Optional "Notebook Preview (Static)" link if front-matter has previewurl
-	  - "Read more" links to the item page (no modal)
-	  {%- endcomment -%}
+  {%- comment -%}
+Always render ONE excerpt node as plain text:
+- Prefer post.excerpt (front matter or <!--more-->)
+- Fallback to first paragraph of content
+Then:
+- Only show "Read more" if the excerpt is long
+- Optional "Notebook Preview (Static)" link if front-matter has previewurl
+- "Read more" links to the item page (no modal)
+{%- endcomment -%}
 
-	  {%- capture raw_excerpt -%}
-	  {%- if post.excerpt -%}
-	  {%- assign excerpt_source = post.excerpt -%}
-	  {%- else -%}
-	  {%- assign excerpt_source = post.content | markdownify | split: '</p>' | first | strip_html | strip -%}
-	  {%- endif -%}
-	  <!-- {%- if post.excerpt -%}
-               {{ post.excerpt | markdownify }}
-	       {%- else -%}
-               {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
-               {{ first_para }}</p>
-	       {%- endif -%} -->
-	  {%- endcapture -%}
+    {%- capture raw_excerpt -%}
+      {%- if post.excerpt -%}
+        {{ post.excerpt | markdownify }}
+      {%- else -%}
+        {%- assign first_para = post.content | markdownify | split:'</p>' | first -%}
+        {{ first_para }}</p>
+      {%- endif -%}
+    {%- endcapture -%}
 
-	  {%- assign excerpt_inline =
-	  excerpt_source
-	  | newline_to_br
-	  | markdownify
-	  | replace: '<p>', ''
-	      | replace: '</p>', ''
-	  -%}
+    {%- assign excerpt_text = raw_excerpt | strip_html | strip -%}
+    {%- assign excerpt_len  = excerpt_text | size -%}
 
-	  <!-- {%- assign excerpt_text = raw_excerpt | strip_html | strip -%}
-	       {%- assign excerpt_len  = excerpt_text | size -%} -->
-
-	  <!-- <p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p> -->
-	  {%- assign excerpt_text = excerpt_inline | strip_html | strip -%}
-	  {%- assign excerpt_len  = excerpt_text | size -%}
-
-	  <p class="archive__item-excerpt" itemprop="description">{{ excerpt_inline }}</p>
-	  
+	<p class="archive__item-excerpt" itemprop="description">{{ excerpt_text }}</p>
 
 	{%- comment -%} Optional "Notebook Preview" link {%- endcomment -%}
 	{%- assign preview_href = nil -%}
