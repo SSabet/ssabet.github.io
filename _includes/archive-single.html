@@ -14,7 +14,7 @@
 
 {%- comment -%} Does this item have any non-whitespace body? {%- endcomment -%}
 {% assign has_body_text = post.content | strip_html | strip %}
-{% assign has_body = has_body_text | size | plus: 0 %}  {# => 0 if empty, >0 if there is content #}
+{% assign has_body = has_body_text | size | plus: 0 %}
 
 {%- comment -%} Do not link teasers to an empty page (especially for teaching) {%- endcomment -%}
 {% if post.collection == 'teaching' and has_body == 0 %}
@@ -159,7 +159,7 @@ Then:
     {% endif %}
     {% if post.slidesurl %}
     <a href="{{ post.slidesurl }}" title="Download slides" style="margin-right:1.5rem;" aria-label="Download slides" target="_blank" rel="noopener">
-	<i class="far fa-file-powerpoint" aria-hidden="true" style="font-size:20px; color:orange"></i>
+	<i class="far fa-desktop" aria-hidden="true" style="font-size:20px; color:orange"></i>
     </a>
     {% endif %}
     {% if post.bibtexurl %}
