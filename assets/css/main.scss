@@ -196,3 +196,7 @@ h1, h2, h3, h4, h5, h6,
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
+
+/* Make unlinked archive titles look consistent with links */
+.archive__item-title { font-weight: 700; }                 /* theme default anyway */
+.archive__item-title a { text-decoration: none; border-bottom: 1px solid currentColor; }
