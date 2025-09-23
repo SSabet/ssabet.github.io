@@ -12,6 +12,16 @@
 {% assign title = post.title %}
 {% endif %}
 
+{%- comment -%} Does this item have any non-whitespace body? {%- endcomment -%}
+{% assign has_body_text = post.content | strip_html | strip %}
+{% assign has_body = has_body_text | size | plus: 0 %}  {# => 0 if empty, >0 if there is content #}
+
+{%- comment -%} Do not link teasers to an empty page (especially for teaching) {%- endcomment -%}
+{% if post.collection == 'teaching' and has_body == 0 %}
+{% assign click_href = nil %}
+{% endif %}
+
+
 {% assign click_raw = post.teaserurl | default: post.url %}
 {% assign is_external = false %}
 {% if click_raw contains "://" %}
@@ -45,14 +55,18 @@
       </div>
     {% endif %}
 
-    <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-	{% endif %}
-    </h3>
-
+      <h3 class="archive__item-title" itemprop="headline">
+	  {% if has_body > 0 %}	  
+	  {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+	  {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+	  {% endif %}
+	  {% else %}
+	  {{ title }}
+	  {% endif %}
+      </h3>
+      
     {% if post.collection == 'publications' %}
     {% include coauthors-line.html coauthors=post.coauthors %}
     {% endif %}
@@ -113,7 +127,7 @@ Then:
 
 	{%- if include.type == "grid" -%}
 	<div class="nb-card-footer">
-	    {%- if excerpt_len > 280 -%}
+	    {%- if excerpt_len > 280 and has_body > 0 -%}
 	    <a href="{{ post.url | relative_url }}">Read more →</a>
 	    {%- endif -%}
 	    
