@@ -186,3 +186,13 @@ h1, h2, h3, h4, h5, h6,
   font-family: var(--font-heading);
   font-weight: 800; /* tweak if you only included 700 */
 }
+
+/* Teaching evaluations line */
+.teach__evals {
+  margin: .25rem 0 .25rem;
+  font-size: 0.9rem;
+}
+.teach__evals a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
