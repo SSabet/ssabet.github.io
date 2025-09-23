@@ -1,5 +1,5 @@
 ---
-title: "The Aggregate Costs of Unproductive Savings: The Case of Gold in India"
+title: "The Unproductive Wealth of Nations: The Case of Gold in India"
 collection: publications
 category: jmp
 permalink: /publication/JMP
