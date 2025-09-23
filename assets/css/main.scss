@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6,
   font-style: italic;                 /* entries italic by default */
 }
 .teach__evals .teach__evals-label {
-  font-weight: 600;
+  font-style: normal;                 /* keep label upright */
   margin-right: .25rem;               /* small gap after the label */
 }
 
