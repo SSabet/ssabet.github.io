@@ -20,8 +20,8 @@ main:
   - title: "Macro Notebooks"
     url: /notebooks/
 
-  - title: "Code & Data"
-    url: /code/
+  - title: "Codes & Data"
+    url: /codes/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
