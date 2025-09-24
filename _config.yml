@@ -244,6 +244,9 @@ collections:
   notebooks:
     output: true
     permalink: /:collection/:path/
+  codes:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -309,7 +312,16 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+  # _codes
+  - scope:
+      path: ""
+      type: codes
+    values:
+      layout: publication
+      author_profile: true
+      share: true
+      comments: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
