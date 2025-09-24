@@ -9,7 +9,7 @@
       {% assign label = year | append: " (" | append: score | append: ")" %}
     {% endif %}
 
-    {% if forloop.index0 > 0 %}, {% endif %}
+    {% if forloop.index0 > 0 %}; {% endif %}
 
     {% if e.url %}
       {% assign href = e.url %}
