@@ -1,6 +1,24 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
+<script>
+ (function () {
+   // Try a few common keys; AcademicPages stores one of these.
+   var keys = ['ap-theme','theme','color-scheme'];
+   var saved = null;
+   for (var i=0;i<keys.length;i++){ var v = localStorage.getItem(keys[i]); if (v){ saved=v; break; } }
+   var desired = saved || 'light';
+
+   var root = document.documentElement;
+   root.setAttribute('data-theme', desired);     // covers data-theme based togglers
+   root.classList.remove('dark','theme-dark');
+   root.classList.add(desired === 'dark' ? 'dark' : 'light'); // covers class-based togglers
+
+   // Persist the default so future loads don’t fall back to prefers-color-scheme
+   if (!saved) localStorage.setItem(keys[0], desired);
+ })();
+</script>
+<noscript><style>:root{color-scheme:light;}</style></noscript>
 
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
