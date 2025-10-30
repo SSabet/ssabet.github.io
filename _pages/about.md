@@ -1,16 +1,17 @@
 ---
 permalink: /
-title: "Bio"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am a PhD candidate in Economics at the [London School of Economics and Political Science](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
+I am a PhD candidate in Economics at the [London School of Economics](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
-My research examines sources of risk and constraints faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as the distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and constraints affect, and are affected by, the state and process of development, and to study policy implications. For more on my research, check out my [Publications](https://ssabet.github.io/publications/).
+My research examines risks and frictions faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as the distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
+<!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
 
-In addition, I have explored topics in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. More on this on the [Code and Data](https://ssabet.github.io/code/). 
+I have also explored topics in computational economics, in particular, solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. More on this on the [Code and Data](https://ssabet.github.io/code/). 
 
 While teaching (graduate) Macroeconomics in 2023 at the LSE, I experimented with creating interactive Macroeconomic Notebooks using the [Pluto package (of the Julia ecosystem)](https://plutojl.org/), to help my students develop intuition for the macro models they were being taught. And they loved it! Visit the [Macro Notebooks](https://ssabet.github.io/notebooks/) page to find out more.
 
