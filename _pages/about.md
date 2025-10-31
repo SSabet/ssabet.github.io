@@ -11,9 +11,9 @@ I am a PhD candidate in Economics at the [London School of Economics](https://ww
 My research examines risks and frictions faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as the distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
 <!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
 
-I have also explored topics in computational economics, particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. More on this in [Code and Data](https://ssabet.github.io/code/).
+I have also explored topics in computational economics, particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. Find out more in [Code and Data](https://ssabet.github.io/code/).
 
-While teaching graduate Macroeconomics at the LSE, I experimented with creating interactive Macroeconomic Notebooks using the [Pluto package (of Julia)](https://plutojl.org/), to help my students develop intuition for the macro models they were being taught. And they loved it! Visit the [Macro Notebooks](https://ssabet.github.io/notebooks/) to find out more.
+While teaching graduate Macroeconomics at the LSE, I experimented with creating interactive Macro Notebooks using the [Pluto package (of Julia)](https://plutojl.org/), to help my students develop intuition for the models they were being taught. And they loved it! Check them out on [Macro Notebooks](https://ssabet.github.io/notebooks/).
 
 I hold a BSc. in Computer Science from Sharif University, and Masters in Decision Mathematics (M1), and Econometrics and Theoretical Economics (M2) from [Toulouse School of Economics](https://www.tse-fr.eu/).
 
