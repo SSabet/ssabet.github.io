@@ -8,10 +8,10 @@ redirect_from:
 ---
 I am a PhD candidate in Economics at the [London School of Economics](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
-My research examines risks and frictions faced by the households in developing countries, the effects on their consumption and investment behaviour as well as the wealth distribution, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
+My research examines how risks and frictions faced by households in developing countries shape their consumption and investment behaviour, and through which, affect the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
 <!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
 
-I have also explored topics in computational economics, particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. Find out more in [Code and Data](https://ssabet.github.io/code/).
+I have also explored [topics in computational economics](https://ssabet.github.io/code/), particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
 
 While teaching graduate Macroeconomics at the LSE, I experimented with creating interactive Macro Notebooks using the [Pluto package (of Julia)](https://plutojl.org/), to help my students develop intuition for the models they were being taught. And they loved it! Check them out on [Macro Notebooks](https://ssabet.github.io/notebooks/).
 
