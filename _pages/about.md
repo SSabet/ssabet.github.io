@@ -8,7 +8,7 @@ redirect_from:
 ---
 I am a PhD candidate in Economics at the [London School of Economics](https://www.lse.ac.uk/economics), with research interests in Macroeconomics and its intersection with (household) finance and development. 
 
-My research examines risks and frictions faced by the households in lower- and middle-income economies, the effects on their consumption and investment behaviour as well as the distribution of income and wealth, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
+My research examines risks and frictions faced by the households in developing countries, the effects on their consumption and investment behaviour as well as the wealth distribution, and implications for the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
 <!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
 
 I have also explored topics in computational economics, particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models. Find out more in [Code and Data](https://ssabet.github.io/code/).

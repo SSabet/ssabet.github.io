@@ -1,5 +1,5 @@
 ---
-title: "Évaluation du plan France Relance à l’aide d’un modèle de HANK *[Evaluation of the France Relance programme using a HANK model]*"
+title: "Evaluation of the French Stimulus Package during Covid with a HANK Model"
 collection: publications
 category: policy
 permalink: /publication/FRST
