@@ -20,4 +20,4 @@ I hold a BSc. in Computer Science from Sharif University, and Masters in Decisio
 
 <!-- '*Amazing presentation skills, ability to explain things clearly and a great sense for humor*', '*[he] understands what people don’t understand and addresses it perfectly*', '*the best seminar teacher I have ever had in the LSE*', '*proportions of math and intuition were also well-balanced*', '*Amazing tutor, literally the best I have had*', '*humble, patient, enlightened*', '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious.*' -->
 
-**I am on the 2025/26 Job Market, you can find my job market paper here, and my CV here.**
+**I am on the 2025/26 Job Market, you can find my job market paper [here](http://ssabet.github.io/files/JMP_Sabet.pdf), and my CV [here](https://ssabet.github.io/files/CV_Sabet.pdf).**
