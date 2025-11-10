@@ -11,7 +11,7 @@ I am a PhD candidate in Economics at the London School of Economics, with resear
 My research examines how risks and frictions faced by households in developing countries shape their consumption and investment behaviour, and through which, affect the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
 <!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
 
-I have also explored [topics in computational economics](https://ssabet.github.io/code/), particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
+I have also explored [topics in computational economics](https://ssabet.github.io/codes/), particularly solution methods for solving multivariate DSGE problems, with a focus on continuous-time heterogeneous agent models.
 
 While teaching graduate Macroeconomics at the LSE, I experimented with creating interactive Macro Notebooks using the Pluto package (of Julia), to help my students develop intuition for the models they were being taught. And they loved it! Check them out on [Macro Notebooks](https://ssabet.github.io/notebooks/).
 
