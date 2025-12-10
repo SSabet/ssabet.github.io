@@ -10,7 +10,7 @@ coauthors:
     url: "https://benjaminmoll.com/"
   - name: "Ricardo Reis"
     url: "https://www.r2rsquared.com"
-excerpt: "We use a HANK-type model to evaluate the impact of France Relance fiscal stimulus, run in the aftermath of the pandemic, on the French economy, both in terms of the aggregate variables and the gain distribution across households."
+excerpt: "We use a HANK-type model to evaluate the impact of France Relance fiscal stimulus, run in the aftermath of the pandemic, on the French economy, both in terms of the aggregate variables and distribution of the welfare gains across households."
 date: 2024-12-09
 paperurl: 'http://ssabet.github.io/files/FRST.pdf'
 venue: CFM
