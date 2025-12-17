@@ -3,9 +3,6 @@ title: "Impulse, Response, and Anticipation in Trajectory-Space Jacobians (Or Ho
 collection: publications
 category: wp
 permalink: /publication/TSJ
-coauthors:
-  - name: "Stephan Hobler"
-    url: "https://www.lse.ac.uk/economics/people/research-students/stephan-hobler"
 excerpt: An efficient method of calculating the continuous-time transition path of a heterogeneous-agent economy in response to a perturbation path (*aka* MIT shock path) affecting a price or another variable, a continuous-time counterpart of (Auclert et al. 2021).
 date: 2025-02-01
 ---
