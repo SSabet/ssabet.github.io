@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD candidate in Economics at the London School of Economics, with research interests in Macroeconomics and its intersection with finance and development. 
+I am an Assistant Professor in the Department of Economics at the University of Edinburgh, with research interests in Macroeconomics and its intersection with finance and development. 
 
 My research examines how risks and frictions faced by households in developing countries shape their consumption and investment behaviour, and through which, affect the level and pace of development of their economies. I use heterogeneous agent models to quantify how such risks and frictions affect, and are affected by, the state and process of development, and to study policy implications. 
 <!-- For more on my research, check out my [Publications](https://ssabet.github.io/publications/). -->
@@ -19,5 +19,3 @@ I hold a BSc. in Computer Science from Sharif University, and Masters in Decisio
 
 
 <!-- '*Amazing presentation skills, ability to explain things clearly and a great sense for humor*', '*[he] understands what people don’t understand and addresses it perfectly*', '*the best seminar teacher I have ever had in the LSE*', '*proportions of math and intuition were also well-balanced*', '*Amazing tutor, literally the best I have had*', '*humble, patient, enlightened*', '*fantastic tutor who's enthusiasm for macroeconomics is as undeniable as it is infectious.*' -->
-
-**I am on the 2025/26 Job Market, you can find my job market paper [here](http://ssabet.github.io/files/JMP_Sabet.pdf), and my CV [here](https://ssabet.github.io/files/CV_Sabet.pdf).**
